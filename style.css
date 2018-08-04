@@ -1,0 +1,16 @@
+#bienvenido {
+  display: none;
+}
+
+#nojuega {
+  display: none;
+}
+
+p {
+   font-size: 120%
+}
+body {
+
+	background-color: #F0F8FF ;
+
+}

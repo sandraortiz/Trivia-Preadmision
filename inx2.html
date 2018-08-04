@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+   <meta charset="utf-8">
+   <title>QUIZ</title>
+   <link href ="style.css" rel ="stylesheet">
+
+  </head>
+
+  <body>
+<!-- cuando dices si -->
+
+    <p id="usuario"></p>
+ <div id="bienvenido">
+    <h1> Probemos tu conocimiento en musica </h1>
+<!-- form recolectar información del usuario
+     name referencia a elementos en un js o  a los datos del formulario después se envía un formulario.
+     check
+ -->
+    <form id = "quiz" name = "quiz">
+
+    <p class = "questions">¿ Quien canta la cancion single ladies ?</p>
+    <input id = "textbox" type = "text" name = "question1">
+
+    <p class = "questions">¿ Bruno Mars canto con Cardi B ?</p>
+    <input id = "textbox" type = "text" name = "question2">
+
+    <p class = "questions">¿ Cancion de Michael Jackson donde aparecen zombies ?</p>
+    <input id = "textbox" type = "text" name = "question3">
+
+    <input  type = "button" value = "finalizar" onclick = "check();">
+
+   </form>
+  </div>
+<!-- cuando dices no -->
+  <p id="adios"></p>
+  <div id="nojuega">
+  <h2>Esperamos verte pronto.</h2>
+  </div>
+<!-- -->
+
+ <p id = "number_correct"></p>
+ <p id = "respuestas"></p>
+
+
+
+<script src = "app.js"></script>
+</body>
+</html>
